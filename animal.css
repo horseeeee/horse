@@ -1,0 +1,74 @@
+#banner{
+	width: 100%;
+	position: relative;
+}
+#logo{
+	width: 30%;
+	position: absolute;
+}
+#menu{
+	width: 10%;
+	position: absolute;
+}
+#login{
+	width: 10%;
+	position: absolute;
+}
+body{
+	font-family: 'Zen Loop', cursive;
+	background-color: #CBC3E3;
+}
+
+a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	font-size: 500%;
+	position: absolute;
+}
+h2{
+	text-align: left;
+	font-size: 340%;
+	line-height: 30px;
+	position: absolute;
+}
+h3{
+	text-align: center;
+	font-size: 340%;
+}
+
+.cards{
+	text-align: center;
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+	border-radius: 200px;
+}
+ol{
+	list-style-type: upper-roman;
+}
+
+ul{
+	list-style-type: square;
+}
+
+li{
+	text-align: left;
+	list-style-type: none;
+	line-height: 30px;
+	font-size: 190%;
+}
+p{
+	font-size: 200%;
+	font-family: 'Amatic SC', cursive;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topbanner{
+	display: flex;
+}
